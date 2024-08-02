@@ -1,5 +1,3 @@
-
-
 :root {
 	--transparencycolor:			0, 0, 0;
 	--transparencyalpha:			0.15;
@@ -19,11 +17,6 @@
 	--textdark: 				160, 160, 160;
 	--textdarker: 				125, 125, 125;
 	--textdarkest: 				90, 90, 90;
-	
-	--background:				url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg);
-	--backgroundposition:			center;
-	--backgroundsize:			cover;
-	--backgroundblur:			0;
 	
 	--popout:				var(--background);
 	--popoutposition:			var(--backgroundposition);
@@ -437,48 +430,7 @@ body::after {
 }
 
 
-/* ~~~~		3.		TITLEBAR					~~~~ */
 
-.titleBar_a934d8 {
-	z-index: 5001;
-}
-.titleBar_a934d8::after {
-	content: "";
-	pointer-events: none;
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background-color: rgba(var(--transparencycolor_v), calc(0.1 + var(--guildchanneltransparency_v) * 2));
-}
-.titleBar_a934d8:not(.typeMacOS_a934d8)::after {
-	height: 22px;
-}
-.titleBar_a934d8.typeMacOS_a934d8::after {
-	height: 28px;
-	width: calc(100% - 4px);
-	margin: 2px;
-	border-radius: 5px;
-}
-.titleBar_a934d8.typeMacOS_a934d8,
-.titleBar_a934d8.typeMacOS_a934d8 .macButtons_a934d8 {
-	width: 72px;
-}
-.titleBar_a934d8.typeMacOS_a934d8.typeMacOSWithFrame_a934d8 .macButtons_a934d8 {
-	margin-top: 0;
-	margin-right: 0;
-}
-.platform-osx .wrapper_fea3ef {
-	margin-top: 0;
-	padding-top: 32px;
-}
-.platform-osx .standardSidebarView_c25c6d::before {
-	left: 72px;
-}
-.winButtonMinMax_a934d8:hover {
-	background-color: rgba(var(--transparencycolor_v), .2);
-}
 
 
 /* ~~~~		4.		GUILDLIST					~~~~ */
