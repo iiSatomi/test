@@ -860,16 +860,6 @@ button.button_f67531.enabled_f67531:hover svg {
 	background: rgba(var(--transparencycolor_v), .4);
 	overflow: hidden;
 }
-.emptyChannelIcon_c2668b::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: var(--header-primary);
-	-webkit-mask: url(https://discord.com/assets/1b60cdb56c8c081495ac.svg) center no-repeat;
-}
 
 .button_ccfa44:hover {									/* welcomemessage			edit channel							*/
 	background-color: rgb(var(--accentcolor_v));
